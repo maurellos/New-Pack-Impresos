@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+
+/*Header*/
+
+header{
+    margin-left: 2%;   
+    margin-right: 2%;
+    margin-bottom: 5%; 
+}
+
+.header__caja{
+    border: 1px solid blue;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+h1{
+    border: 1px solid black;
+    color: blue;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+.header__logo img{
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.header__nav{
+    display: inline;
+    width: 50%;
+
+    
+    
+}
+
+.header__nav ul li{
+    display: inline;
+    list-style-type: none;
+    color: blue;
+    
+}
+
+.header__nav ul li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.header__nav ul li:hover>ul{
+    display: block;
+}
+
+
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
