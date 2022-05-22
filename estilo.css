@@ -43,7 +43,7 @@ h1{
 }
 
 .header__nav ul li{
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     color: blue;
     
@@ -53,10 +53,12 @@ h1{
     display: none;
     position: absolute;
     
+    
 }
 
 .header__nav ul li:hover>ul{
     display: block;
+
 }
 
 
@@ -65,6 +67,15 @@ h1{
     text-decoration: none;
     color: blue;
 }
+
+.caja__main{
+    height: 50vh;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid blue;
+    background-color: antiquewhite;
+}
+
 
 
 
